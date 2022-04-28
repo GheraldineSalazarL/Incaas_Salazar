@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem; }
+
+.Index {
+  background-color: white;
+  color: #083B86;
+  font-family: "Josefin Sans", sans-serif;
+  margin: auto; }
+  .Index .A h1 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif; }
+  .Index .A .A1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end; }
+    .Index .A .A1 .A2 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .Index .A .A1 .A2 .list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; }
+        .Index .A .A1 .A2 .list ul {
+          list-style: none;
+          font-size: 1.5rem; }
+      .Index .A .A1 .A2 .corp {
+        align-self: flex-end;
+        color: #6AB528; }
+  .Index .B .form {
+    font-size: 1rem;
+    border: #083B86 solid;
+    border-radius: 10px;
+    padding: 15px;
+    color: #083B86;
+    box-shadow: 7px 7px 10px #5c5d5e; }
+    .Index .B .form .titulof {
+      font-family: 'Ubuntu', sans-serif;
+      text-align: center; }
+    .Index .B .form form .controls {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #083B86;
+      border-radius: 4px;
+      margin-bottom: 5px;
+      font-family: "Josefin Sans", sans-serif;
+      color: #083B86; }
+    .Index .B .form form .pf {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1rem; }
+      .Index .B .form form .pf a {
+        color: #083B86;
+        text-decoration: none; }
+        .Index .B .form form .pf a:hover {
+          color: #6AB528;
+          text-decoration: underline; }
+    .Index .B .form form .extboton {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center; }
+      .Index .B .form form .extboton .boton {
+        background-color: #6AB528;
+        border: none;
+        padding: 10px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px; }
+        .Index .B .form form .extboton .boton:hover {
+          background-color: #083B86;
+          color: white; }
+  .Index .C {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center; }
+  .Index .DEF .D, .Index .DEF .E, .Index .DEF .F {
+    text-align: center; }
+    .Index .DEF .D h3, .Index .DEF .E h3, .Index .DEF .F h3 {
+      margin-top: 20px; }
+    .Index .DEF .D .Dbox, .Index .DEF .D .Ebox, .Index .DEF .D .Fbox, .Index .DEF .E .Dbox, .Index .DEF .E .Ebox, .Index .DEF .E .Fbox, .Index .DEF .F .Dbox, .Index .DEF .F .Ebox, .Index .DEF .F .Fbox {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      border: #083B86 double 2px;
+      border-radius: 2%;
+      box-shadow: 7px 7px 10px #5c5d5e; }
+      .Index .DEF .D .Dbox .Dbox1, .Index .DEF .D .Dbox .Ebox1, .Index .DEF .D .Dbox .Fbox1, .Index .DEF .D .Ebox .Dbox1, .Index .DEF .D .Ebox .Ebox1, .Index .DEF .D .Ebox .Fbox1, .Index .DEF .D .Fbox .Dbox1, .Index .DEF .D .Fbox .Ebox1, .Index .DEF .D .Fbox .Fbox1, .Index .DEF .E .Dbox .Dbox1, .Index .DEF .E .Dbox .Ebox1, .Index .DEF .E .Dbox .Fbox1, .Index .DEF .E .Ebox .Dbox1, .Index .DEF .E .Ebox .Ebox1, .Index .DEF .E .Ebox .Fbox1, .Index .DEF .E .Fbox .Dbox1, .Index .DEF .E .Fbox .Ebox1, .Index .DEF .E .Fbox .Fbox1, .Index .DEF .F .Dbox .Dbox1, .Index .DEF .F .Dbox .Ebox1, .Index .DEF .F .Dbox .Fbox1, .Index .DEF .F .Ebox .Dbox1, .Index .DEF .F .Ebox .Ebox1, .Index .DEF .F .Ebox .Fbox1, .Index .DEF .F .Fbox .Dbox1, .Index .DEF .F .Fbox .Ebox1, .Index .DEF .F .Fbox .Fbox1 {
+        display: flex;
+        flex-direction: row; }
+      .Index .DEF .D .Dbox .Dbox2, .Index .DEF .D .Dbox .Ebox2, .Index .DEF .D .Dbox .Fbox2, .Index .DEF .D .Ebox .Dbox2, .Index .DEF .D .Ebox .Ebox2, .Index .DEF .D .Ebox .Fbox2, .Index .DEF .D .Fbox .Dbox2, .Index .DEF .D .Fbox .Ebox2, .Index .DEF .D .Fbox .Fbox2, .Index .DEF .E .Dbox .Dbox2, .Index .DEF .E .Dbox .Ebox2, .Index .DEF .E .Dbox .Fbox2, .Index .DEF .E .Ebox .Dbox2, .Index .DEF .E .Ebox .Ebox2, .Index .DEF .E .Ebox .Fbox2, .Index .DEF .E .Fbox .Dbox2, .Index .DEF .E .Fbox .Ebox2, .Index .DEF .E .Fbox .Fbox2, .Index .DEF .F .Dbox .Dbox2, .Index .DEF .F .Dbox .Ebox2, .Index .DEF .F .Dbox .Fbox2, .Index .DEF .F .Ebox .Dbox2, .Index .DEF .F .Ebox .Ebox2, .Index .DEF .F .Ebox .Fbox2, .Index .DEF .F .Fbox .Dbox2, .Index .DEF .F .Fbox .Ebox2, .Index .DEF .F .Fbox .Fbox2 {
+        display: flex;
+        flex-direction: row; }
+      .Index .DEF .D .Dbox img, .Index .DEF .D .Ebox img, .Index .DEF .D .Fbox img, .Index .DEF .E .Dbox img, .Index .DEF .E .Ebox img, .Index .DEF .E .Fbox img, .Index .DEF .F .Dbox img, .Index .DEF .F .Ebox img, .Index .DEF .F .Fbox img {
+        padding: 5px;
+        border: #083B86 solid 2px;
+        border-radius: 100%;
+        justify-self: center; }
+  .Index .G {
+    margin-top: 50px;
+    align-content: center; }
+    .Index .G img {
+      border: solid white;
+      border-radius: 8%;
+      margin-bottom: 20px; }
+    .Index .G .G1B, .Index .G .G2B, .Index .G .G3B {
+      padding-right: 40px;
+      padding-left: 40px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .Index .G h2 {
+      font-family: "Ubuntu", sans-serif; }
+  .Index .H {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    margin-bottom: 30px; }
+  .Index .IJK .I, .Index .IJK .J, .Index .IJK .K {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 15px; }
+  .Index .IJK h3 {
+    background-color: #083B86;
+    color: white;
+    padding: 10px 0px 10px 0px; }
+  .Index .IJK p {
+    padding: 10px 0px 10px 0px; }
+  .Index .IJK a {
+    margin: auto;
+    width: 50%; }
+  .Index .IJK input {
+    background-color: #6AB528;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #6AB528;
+    border-radius: 5px; }
+    .Index .IJK input:hover {
+      background-color: #083B86;
+      color: white;
+      padding: 10px;
+      border: 1px solid #083B86;
+      border-radius: 5px;
+      transform: scale(1.1, 1.1); }
+
+footer {
+  background-color: #070d16;
+  width: 100%;
+  color: white;
+  align-items: center;
+  font-size: 0.8rem; }
+  footer .row {
+    padding: 15px; }
+    footer .row .footer1 {
+      margin: auto; }
+    footer .row .footer2 {
+      align-self: center; }
+      footer .row .footer2 .footerboton {
+        background-color: #6AB528; }
+        footer .row .footer2 .footerboton:hover {
+          background-color: #083B86;
+          color: white; }
+    footer .row h4 {
+      color: #6AB528; }
+  footer .wpp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; }
+
+.Programas {
+  padding-bottom: 25px; }
+  .Programas h1, .Programas h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #083B86; }
+
+.Matriculas {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #083B86; }
+
+.Matriculas .MA {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 8%;
+  margin-bottom: 15px; }
+
+.Matriculas .MA h1 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif; }
+
+.Matriculas .MB {
+  display: grid;
+  grid-template-columns: 1 fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Ml1 Ml2" "Ml3 Ml4" "Ml5 Ml6";
+  align-items: center;
+  width: 80%;
+  margin: auto; }
+
+.Matriculas .MB .Ml1 {
+  grid-area: Ml1; }
+
+.Matriculas .MB .Ml2 {
+  grid-area: Ml2;
+  list-style: none; }
+
+.Matriculas .MB .Ml3 {
+  grid-area: Ml3; }
+
+.Matriculas .MB .Ml4 {
+  grid-area: Ml4;
+  list-style: none; }
+
+.Matriculas .MB .Ml5 {
+  grid-area: Ml5; }
+
+.Matriculas .MB .Ml6 {
+  grid-area: Ml6;
+  list-style: none; }
+
+.Matriculas .MB .Ml1, .Ml3, .Ml5 {
+  list-style: none;
+  font-size: 1.8rem;
+  text-align: center;
+  border: #083B86 solid 2px;
+  border-radius: 100%;
+  padding: 5px 12px 5px 12px;
+  background-color: #6AB528;
+  box-shadow: 3px 3px 10px #5c5d5e; }
+
+.Matriculas .MC {
+  text-align: center; }
+
+.Matriculas .MDext .MD .MDA h2, .Matriculas .MDext .MD .MDA h4 {
+  color: #083B86; }
+
+.Matriculas .MDext {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.Matriculas .MD .MDA {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px; }
+
+.Matriculas .MD .MDA i {
+  font-size: 1.8rem;
+  text-align: center;
+  border: #083B86 solid 2px;
+  border-radius: 100%;
+  padding: 5px 12px 5px 12px;
+  background-color: #6AB528;
+  box-shadow: 3px 3px 10px #4b4d4e;
+  margin-right: 15px;
+  margin-left: 5px; }
+
+.Matriculas .MD .form {
+  background-color: #070d16;
+  margin: auto;
+  width: 85%;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  box-shadow: 7px 7px 10px #c8d2e1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+.Matriculas .MD .form p {
+  font-size: 1rem; }
+
+.Estudiantes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+  grid-template-areas: "EA EB";
+  font-size: 2.5rem; }
+
+.Estudiantes .EA {
+  grid-area: EA;
+  background-image: url("./imag/IngV.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Estudiantes .EB {
+  grid-area: EB;
+  background-image: url("./imag/IngP.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Estudiantes .EA .EAint, .EBint {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-items: flex-end; }
+
+.Estudiantes .EA a, .EB a {
+  text-decoration: none; }
+
+.Estudiantes .EA .EAint:hover {
+  border: #6AB528 10px solid; }
+
+.Estudiantes .EBint:hover {
+  border: #083B86 10px solid; }
+
+.Estudiantes .EA h2, .EB h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  align-self: center;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.contactos {
+  margin: auto;
+  width: 90%;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #083B86;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "CA CA CD" "CB CC CD"; }
+
+.contactos .CA {
+  grid-area: CA;
+  margin-top: 40px; }
+
+.contactos .CA h1 {
+  padding-bottom: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center; }
+
+.contactos .CA p {
+  text-align: center;
+  padding: 3px; }
+
+.contactos .CB {
+  grid-area: CB;
+  display: flex;
+  justify-content: flex-end; }
+
+.contactos .CC {
+  grid-area: CC; }
+
+.contactos .CC:hover, .CB:hover {
+  transform: scale(1.1, 1.1); }
+
+.contactos iframe {
+  padding: 15px; }
+
+.contactos .CD {
+  grid-area: CD;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.contactos .CD form {
+  width: 400px;
+  border: 2px solid #083B86;
+  border-radius: 2%;
+  padding: 10px; }
+
+.contactos .CD form h2 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.contactos .CD form input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #083B86;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #083B86; }
+
+.contactos .CD form .boton {
+  background-color: #6AB528;
+  border: none;
+  padding: 10px;
+  color: white;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.contactos .CD form .boton:hover {
+  background-color: #083B86;
+  color: white; }
+
+.contactos .CD div {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px; }
+
+.contactos .CD div img {
+  margin: 5px; }
+
+.TDTC {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #083B86;
+  margin: auto; }
+
+.TDTC h2 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 20px;
+  margin-top: 40px; }
+
+.TDTC p {
+  padding-bottom: 40px; }

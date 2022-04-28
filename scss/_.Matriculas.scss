@@ -1,0 +1,104 @@
+.Matriculas{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #083B86;
+}
+.Matriculas .MA{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 8%;
+    margin-bottom: 15px;
+}
+.Matriculas .MA h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Matriculas .MB{
+    display: grid;
+    grid-template-columns: 1 fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Ml1 Ml2"
+    "Ml3 Ml4"
+    "Ml5 Ml6";
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.Matriculas .MB .Ml1{
+    grid-area: Ml1;
+}
+.Matriculas .MB .Ml2{
+    grid-area: Ml2;
+    list-style: none;
+}
+.Matriculas .MB .Ml3{
+    grid-area: Ml3;
+}
+.Matriculas .MB .Ml4{
+    grid-area: Ml4;
+    list-style: none;
+}
+.Matriculas .MB .Ml5{
+    grid-area: Ml5;
+}
+.Matriculas .MB .Ml6{
+    grid-area: Ml6;
+    list-style: none;
+}
+.Matriculas .MB .Ml1, .Ml3, .Ml5{
+    list-style: none;
+    font-size: 1.8rem;
+    text-align: center;
+    border: #083B86 solid 2px;
+    border-radius: 100%;
+    padding: 5px 12px 5px 12px;
+    background-color: #6AB528;
+    box-shadow: 3px 3px 10px #5c5d5e;
+}
+.Matriculas .MC{
+    text-align: center;
+}
+
+.Matriculas .MDext .MD .MDA h2, .Matriculas .MDext .MD .MDA h4{
+    color: #083B86;
+}
+.Matriculas .MDext{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Matriculas .MD .MDA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.Matriculas .MD .MDA i{
+    font-size: 1.8rem;
+    text-align: center;
+    border: #083B86 solid 2px;
+    border-radius: 100%;
+    padding: 5px 12px 5px 12px;
+    background-color: #6AB528;
+    box-shadow: 3px 3px 10px #4b4d4e;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.Matriculas .MD .form{
+    background-color: #070d16;
+    margin: auto;
+    width: 85%;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    box-shadow: 7px 7px 10px #c8d2e1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.Matriculas .MD .form p{
+    font-size: 1rem;
+}

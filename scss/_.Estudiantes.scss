@@ -1,0 +1,43 @@
+.Estudiantes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+    "EA EB";
+    font-size: 2.5rem;
+}
+.Estudiantes .EA{
+    grid-area: EA;
+    background-image: url("./imag/IngV.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Estudiantes .EB{
+    grid-area: EB;
+    background-image: url("./imag/IngP.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Estudiantes .EA .EAint, .EBint{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-items: flex-end;
+}
+.Estudiantes .EA a, .EB a{
+    text-decoration: none;
+}
+.Estudiantes .EA .EAint:hover{
+    border: #6AB528 10px solid;
+}
+.Estudiantes .EBint:hover{
+    border: #083B86 10px solid;
+}
+.Estudiantes .EA h2, .EB h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}

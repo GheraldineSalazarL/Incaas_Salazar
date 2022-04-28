@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+$titulo-grande: 'Josefin Sans', sans-serif;
+$letras-normales: 1.2rem;
+
+body{
+    background-color: white;
+    font-family: $titulo-grande;
+    font-size: $letras-normales;
+}
+@import ".Index";
+@import "footer";
+@import ".Programas";
+@import ".Matriculas";
+@import ".Estudiantes";
+@import ".contactos";
+@import ".TDTC";

@@ -1,0 +1,35 @@
+$color-azul: #083B86;
+$color-verde: #6AB528;
+$color-footer:  #070d16; 
+
+footer{
+    background-color: $color-footer;
+    width: 100%;
+    color: white;
+    align-items: center;
+    font-size: 0.8rem;
+    .row{
+        padding: 15px;
+        .footer1{
+            margin: auto;
+        }
+        .footer2{
+            align-self: center;
+            .footerboton{
+                background-color: $color-verde;
+                &:hover{
+                    background-color: $color-azul;
+                    color: white;
+                }
+            }
+        }
+        h4{
+            color: $color-verde;
+        }
+    }
+    .wpp{
+        position:fixed;
+        bottom:20px;
+        right:20px;
+    }
+}

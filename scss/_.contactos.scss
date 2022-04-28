@@ -1,0 +1,90 @@
+.contactos{
+    margin:auto;
+    width: 90%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #083B86;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "CA CA CD"
+    "CB CC CD";
+}
+.contactos .CA{
+    grid-area: CA;
+    margin-top: 40px;
+}
+.contactos .CA h1{
+    padding-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.contactos .CA p{
+    text-align: center;
+    padding: 3px;
+}
+.contactos .CB{
+    grid-area: CB;
+    display: flex;
+    justify-content: flex-end;
+}
+.contactos .CC{
+    grid-area: CC;
+}
+.contactos .CC:hover, .CB:hover{
+    transform:scale(1.1, 1.1) 
+}
+.contactos iframe{
+    padding: 15px;
+
+}
+.contactos .CD{
+    grid-area: CD;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.contactos .CD form{
+    width: 400px;
+    border: 2px solid #083B86;
+    border-radius: 2%;
+    padding: 10px;
+}
+.contactos .CD form h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contactos .CD form input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #083B86;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #083B86;
+}
+.contactos .CD form .boton{
+    background-color: #6AB528;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactos .CD form .boton:hover{
+    background-color: #083B86;
+    color: white;
+}
+.contactos .CD div{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+}
+.contactos .CD div img{
+    margin: 5px;
+}
