@@ -18,15 +18,12 @@ $letras-normales: 1.2rem;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            align-items: flex-end;
             .A2{
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
                 .list{
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: nowrap;
+                    @extend .A1;
                     ul{
                         list-style: none;
                         font-size: 1.5rem;
@@ -107,8 +104,7 @@ $letras-normales: 1.2rem;
                 margin-top: 20px;
             }
             .Dbox, .Ebox, .Fbox{
-                display: flex;
-                flex-direction: column;
+                @extend .A2;
                 text-align: center;
                 padding: 10px;
                 border: $color-azul double 2px;
@@ -119,8 +115,7 @@ $letras-normales: 1.2rem;
                     flex-direction: row;
                 }
                 .Dbox2, .Ebox2, .Fbox2{
-                    display: flex;
-                    flex-direction: row;
+                    @extend .Dbox1
                 }
                 img{
                     padding: 5px;
@@ -156,9 +151,7 @@ $letras-normales: 1.2rem;
     }
     .IJK{
         .I, .J, .K{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
+            @extend .A2;
             text-align: center;
             padding-bottom: 15px;
         }

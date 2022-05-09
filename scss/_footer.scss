@@ -2,12 +2,16 @@ $color-azul: #083B86;
 $color-verde: #6AB528;
 $color-footer:  #070d16; 
 
+@mixin stilefotter($background, $width, $color,  $aling, $tam){
+    background-color: $background;
+    width: $width;
+    color: $color;
+    align-items: $aling;
+    font-size: $tam;
+}
 footer{
-    background-color: $color-footer;
-    width: 100%;
-    color: white;
-    align-items: center;
-    font-size: 0.8rem;
+    @include stilefotter($color-footer, 100%, white, center, 0.8rem);  
+
     .row{
         padding: 15px;
         .footer1{

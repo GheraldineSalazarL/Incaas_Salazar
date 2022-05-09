@@ -7,10 +7,13 @@
 $titulo-grande: 'Josefin Sans', sans-serif;
 $letras-normales: 1.2rem;
 
+@mixin fuente($background, $fuente, $tamaño){
+    background-color: $background;
+    font-family: $fuente;
+    font-size: $tamaño;
+}
 body{
-    background-color: white;
-    font-family: $titulo-grande;
-    font-size: $letras-normales;
+    @include fuente(white, $titulo-grande, $letras-normales)
 }
 @import ".Index";
 @import "footer";

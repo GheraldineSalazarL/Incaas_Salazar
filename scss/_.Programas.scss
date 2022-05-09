@@ -1,8 +1,12 @@
+@mixin size($font, $aling, $color){
+    font-family: $font;
+    text-align: $aling;
+    color: $color;
+}
+
 .Programas{
     padding-bottom: 25px;
     h1, h2{
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        color: #083B86;
+        @include size('Ubuntu', center, #083B86); 
     }
 }
