@@ -9,13 +9,14 @@
 }
 .TDTC{
     @include stileTDTC(90%, flex, column, wrap, sans-serif, #083B86,auto);  
+    h2{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    p{
+        padding-bottom: 40px;
+    }
 }
-.TDTC h2{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 20px;
-    margin-top: 40px;
-}
-.TDTC p{
-    padding-bottom: 40px;
-}
+
